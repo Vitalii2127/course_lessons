@@ -1,0 +1,19 @@
+.text-one p {
+    color: #7a7676;
+}
+.text-one > p {
+    color: rgb(19, 156, 19);
+}
+.text-one ~ p {
+    color: blue;
+}
+.text-random + p {
+    color: rgb(190, 190, 32);
+}
+.text-random * {
+    font-weight: 700;
+}
+.item-two, 
+.google.link-google {
+    color: rgb(28, 158, 141);
+}
