@@ -98,9 +98,6 @@ h2.title-two {
     text-shadow: 7px 7px 3px #880707;
     text-align: center;
 }
-.text-two {
-    font-style: italic;
-}
 .text-two > p {
     word-spacing: 15px;
     color: rgb(0, 0, 255);
