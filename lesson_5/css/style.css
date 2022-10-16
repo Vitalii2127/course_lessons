@@ -87,7 +87,7 @@ div .header-content ul {
     color: red;
 }
 .text-one .text {
-    font-family: "Bungee Spice" sans-serif;
+    font-family: "Bungee Spice", sans-serif;
     font-size: 28px;
     font-weight: 700;
     text-transform: capitalize;
