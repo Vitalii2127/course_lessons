@@ -33,7 +33,8 @@ body {
     font-size: 46px;
     margin-bottom: 100px;
 }
-.image {
+.image img {
+    max-width: 100%;
     margin-bottom: 50px;
 }
 .text-block.one {
