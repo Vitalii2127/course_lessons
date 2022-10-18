@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@font-face {
+    font-family: "CircularStd";
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+body {
+    font-family: "Lato";
+}
+.content {
+    max-width: 810px;
+    margin: 0 auto;
+}
+.title-top {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    padding-top: 20px;
+    margin: 0 auto 50px;
+}
+.title-top p {
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}
+.header-content {
+    font-weight: 900;
+    font-size: 46px;
+    margin-bottom: 100px;
+}
+.image {
+    margin-bottom: 50px;
+}
+.text-block.one {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.text-block.one p,
+.text-list p,
+.text-list ul li,
+.text-block.two p {
+    font-weight: normal;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.title-text,
+.paragraf-text,
+.text-list p,
+.text-block.two,
+.end-text,
+.block-frontier,
+.block-one h2 {
+    margin-bottom: 30px;
+}
+.text-fish {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-left: 60px;
+    margin-bottom: 50px;
+}
+.text-list ul {
+    margin: 0 0 30px 35px;
+}
+.end-text {
+    font-weight: 900;
+    font-size: 46px;
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 4px rgb(41, 40, 40);
+}
+.block-frontier {
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    color: red;
+    text-shadow: 2px -2px 3px yellow;
+    height: 80px;
+    padding: 25px;
+    border-radius: 80px/100px;
+    background-color: #666666;
+}
+.footer-content * {
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.footer-content {
+    border-radius: 25px/100px;
+    background-color: rgba(255, 255, 0, 0.11);
+    margin: 0 -300px 0 -300px;
+}
+.block-one h2 {
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    text-decoration: underline;
+}
+.block-one .two,
+.block-one .three {
+    max-height: 78px;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+.block-one .one {
+    width: 400px;
+    max-height: 400px;
+    background-color: green;
+    overflow: hidden;
+    border-radius: 72% 28% 65% 35% / 31% 67% 33% 69%;
+    border-left: 20px dotted rgba(255, 0, 0, 0.616);
+    padding: 5px;
+    margin: 0 auto 50px;
+}
+.block-one .two {
+    background-color: coral;
+    overflow: scroll;
+}
+.block-one .three {
+    background-color: rgba(114, 38, 165, 0.452);
+    overflow: auto;
+}
+.row-block span {
+    display: block;
+    width: 500px;
+    max-height: 78px;
+    font-style: italic;
+    outline: 5px solid #000;
+    padding: 5px;
+    background-color: rgba(255, 192, 203, 0.568);
+    margin: 0 auto 50px;
+}
+.row-block p {
+    display: inline;
+    font-weight: 700;
+    padding: 5px;
+    background-color: yellowgreen;
+}
+.image-getman {
+    background-color: red;
+    border: 10px solid #000;
+    margin: 50px 0 50px;
+}
+.text-getman {
+    font-size: 0;
+    padding: 10px;
+    color: white;
+    background-color: #000;
+}
+.text-getman span {
+    font-family: "Dancing Script";
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+}
+.image-getman span {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.image-getman img {
+    display: block;
+    border-radius: 34% 66% 42% 58% / 0% 100% 0% 100%;
+    border: 2px solid #ffd700;
+    padding: 10px;
+    margin: 0 auto;
+}
+.slava-ukraini {
+    display: inline-block;
+    font-family: "CircularStd";
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #353434;
+    text-shadow: 3px 3px 3px #474646;
+    width: 100%;
+    font-size: 24px;
+    padding: 1.3%;
+    background: rgb(244,221,131);
+    background: linear-gradient(0deg, rgba(244,221,131,0.9976365546218487) 35%, rgba(36,132,240,1) 100%);
+}
+.block-two h2 {
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+.italic-words {
+    font-style: italic;
+}
+.block-two p {
+    margin-bottom: 30px;
+}
+.block-two ul {
+    max-width: 280px;
+    background-color: rgba(65, 105, 225, 0.637);
+    border: 5px double #000;
+    border-top: none;
+    margin: 0 auto 50px;
+}
+.block-two li {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 5px;
+}
+.nasa-link,
+.unesco-link, 
+.animals-link {
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.nasa-link{
+    font-weight: 700;
+}
+.unesco-link {
+    font-style: oblique;
+}
+.animals-link {
+    font-weight: 600;
+    font-style: italic;
+}
+.up {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    outline: 1px solid #696969;
+    box-shadow: 5px 10px 150px 10px rgb(148, 34, 34), inset 25px 0 40px 10px #804eafcc;
+    background-color: yellow;
+    opacity: 0.7;
+    margin: 0 auto;
+}
+.up p {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #575656;
+    text-shadow: 2px 2px 5px #000;
+    letter-spacing: 1px;
+    padding-top: 34px;
+}
