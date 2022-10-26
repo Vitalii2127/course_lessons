@@ -102,7 +102,7 @@ p.paragraph-list {
 .home-content h2,
 .capital-content h3,
 .capital-content + p,
-.footer p,
+.footer + p,
 .footer-content p,
 footer .up li {
     text-align: center;
@@ -159,6 +159,9 @@ footer .up li {
     max-width: 960px;
     margin: 0 auto;
 }
+footer {
+    max-width: 100%;
+}
 .footer p {
     font-family: "CircularStd";
     font-weight: 900;
@@ -170,17 +173,17 @@ footer .up li {
     font-size: 80px;
     background-color: rgba(255, 0, 0, 0.753);
     padding: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
-.footer-content p {
+.footer-content {
     font-size: 140px;
     font-weight: 900;
-    letter-spacing: 70px;
+    letter-spacing: 30px;
     text-transform: uppercase;
     color: white;
     text-shadow: 2px 2px 3px red, -2px 2px 3px #000;
+    background: url('../img/black.jpg') 5% top / 100px 100px no-repeat, url('../img/yellow.jpg') 16.5% bottom / 100px 100px no-repeat, url('../img/black.jpg') 28% top / 100px 100px no-repeat, url('../img/yellow.jpg') 39.5% bottom / 100px 100px no-repeat, url('../img/black.jpg') 51% top / 100px 100px no-repeat, url('../img/yellow.jpg') 62.5% bottom / 100px 100px no-repeat, url('../img/black.jpg') 74% top / 100px 100px no-repeat, url('../img/yellow.jpg') 85.5% bottom / 100px 100px no-repeat, url('../img/black.jpg') 97% top / 100px 100px no-repeat;
     padding: 30px;
-    background: url('../img/black.jpg') top left / 100px 100px no-repeat, url('../img/yellow.jpg') 11.5% bottom / 100px 100px no-repeat, url('../img/black.jpg') 23% top / 100px 100px no-repeat, url('../img/yellow.jpg') 34.5% bottom / 100px 100px no-repeat, url('../img/black.jpg') 46% top / 100px 100px no-repeat, url('../img/yellow.jpg') 57.5% bottom / 100px 100px no-repeat, url('../img/black.jpg') 69% top / 100px 100px no-repeat, url('../img/yellow.jpg') 80.5% bottom / 100px 100px no-repeat, url('../img/black.jpg') 92% top / 100px 100px no-repeat;
     margin-bottom: 30px;
 }
 footer .up li {
