@@ -103,6 +103,7 @@ p.paragraph-list {
 .capital-content h3,
 .capital-content + p,
 .footer + p,
+.footer p,
 .footer-content p,
 footer .up li {
     text-align: center;
