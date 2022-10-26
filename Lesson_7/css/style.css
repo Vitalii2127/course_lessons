@@ -10,6 +10,14 @@ body {
     font-family: "Lato", sans-serif;
     color: #424551;
 }
+[class*="-container"]{
+    max-width: 810px;
+    margin: 0 auto;
+}
+[class*="-content"]{
+    max-width: 960px;
+    margin: 0 auto;
+}
 .down-homework,
 .top-container ul.link li {
     text-align: center;
@@ -88,10 +96,6 @@ p.paragraph-list {
     padding-top: 2%;
     margin: 0 auto 10px;
 }
-[class*="-container"]{
-    max-width: 810px;
-    margin: 0 auto;
-}
 /* ДОМАШКА ПО ВІДПРАЦЮВАННЮ ВЛАСТИВОСТЕЙ background */
 .home-block {
     background: url("../img/zheka.png") 77% 0 / 270px 150px no-repeat, url("../img/hands.png") 0 100% / 450px 350px no-repeat, linear-gradient(188deg, rgba(218,232,71,1) 0%, rgba(236,237,70,1) 15%, rgba(80,167,232,1) 70%);
@@ -155,10 +159,6 @@ footer .up li {
     text-transform: uppercase;
     font-weight: 500;
     background: url('../img/sunflowers.jpg') 0 100% / contain;
-}
-[class*="-content"]{
-    max-width: 960px;
-    margin: 0 auto;
 }
 .footer p {
     font-family: "CircularStd";
