@@ -152,8 +152,8 @@ body{
 .block-ten img {
 	max-width: 100%;
 	margin: -5px 0 0 370px;
-	/* opacity: 0;
-	visibility: hidden; */
+	opacity: 0;
+	visibility: hidden;
 }
 .block-ten img:active {
 	background: url('../img/салют.png') center 0 / 150% no-repeat;
